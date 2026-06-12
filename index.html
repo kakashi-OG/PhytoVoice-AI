@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PhytoVoice AI</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth}
+body{font-family:Poppins,sans-serif;background:#081224;color:#fff}
+nav{display:flex;justify-content:space-between;align-items:center;padding:25px 8%;position:sticky;top:0;background:rgba(8,18,36,.95);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}
+.logo{font-size:30px;font-weight:700;color:#22c55e}
+.nav-links a{text-decoration:none;color:#fff;margin-left:25px}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:space-between;gap:40px;padding:0 8%}
+.hero-text{flex:1}
+.hero-image{flex:1;text-align:center}
+.hero-image img{max-width:100%;border-radius:20px;box-shadow:0 0 40px rgba(34,197,94,.25)}
+.hero h1{font-size:72px;color:#22c55e}
+.hero h2{font-size:36px;margin:10px 0 20px}
+.hero p{font-size:18px;line-height:1.8;color:#cbd5e1;margin-bottom:30px}
+.btn{padding:14px 30px;border:none;border-radius:12px;background:#22c55e;color:#fff;font-size:18px}
+.section{padding:90px 8%}
+.section-title{text-align:center;color:#22c55e;font-size:42px;margin-bottom:50px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.card,.founder-card,.demo-box,.timeline-item{background:#10203a;padding:25px;border-radius:18px}
+.card h3{color:#22c55e;margin-bottom:10px}
+.demo-box{max-width:850px;margin:auto}
+.message{padding:14px;border-radius:12px;margin:10px 0}
+.user{background:#1f2937}.plant{background:#166534}
+.timeline{max-width:850px;margin:auto}
+.timeline-item{margin-bottom:15px}
+.avatar{width:120px;height:120px;border-radius:50%;background:#22c55e;display:flex;align-items:center;justify-content:center;font-size:40px;font-weight:700;margin:0 auto 20px}
+.founder-card{max-width:600px;margin:auto;text-align:center}
+.founder-card a{color:#22c55e;text-decoration:none}
+footer{text-align:center;padding:40px;border-top:1px solid rgba(255,255,255,.08);color:#94a3b8}
+@media(max-width:900px){
+.hero{flex-direction:column;padding-top:60px;text-align:center}
+.hero h1{font-size:54px}
+.nav-links{display:none}
+}
+</style>
+</head>
+<body>
+<nav>
+<div class="logo">🌱 PhytoVoice AI</div>
+<div class="nav-links">
+<a href="#features">Features</a>
+<a href="#demo">Demo</a>
+<a href="#roadmap">Roadmap</a>
+<a href="#founder">Founder</a>
+</div>
+</nav>
+
+<section class="hero">
+<div class="hero-text">
+<h1>PhytoVoice AI</h1>
+<h2>Giving Plants a Voice</h2>
+<p>The world's first AI-powered plant communication platform that transforms plant health signals into natural conversations using IoT, Computer Vision and Artificial Intelligence.</p>
+<button class="btn">Explore Project</button>
+</div>
+<div class="hero-image">
+<img src="assets/smart-stake.png" alt="Smart Stake">
+</div>
+</section>
+
+<section class="section" id="features">
+<h2 class="section-title">Features</h2>
+<div class="cards">
+<div class="card"><h3>🌱 Plant Monitoring</h3><p>Real-time monitoring of plant health.</p></div>
+<div class="card"><h3>📷 Plant Identification</h3><p>ESP32-CAM identifies plant species.</p></div>
+<div class="card"><h3>🤖 AI Conversations</h3><p>Plants communicate naturally.</p></div>
+<div class="card"><h3>🎙 Voice Assistant</h3><p>Future voice interaction support.</p></div>
+<div class="card"><h3>🍃 Disease Detection</h3><p>AI detects plant diseases early.</p></div>
+<div class="card"><h3>🌐 Plant Network</h3><p>Future plant-to-plant communication.</p></div>
+</div>
+</section>
+
+<section class="section" id="demo">
+<h2 class="section-title">AI Conversation Demo</h2>
+<div class="demo-box">
+<div class="message user">👤 How are you today?</div>
+<div class="message plant">🌱 I'm healthy today. Soil moisture is optimal and I have received enough sunlight.</div>
+<div class="message user">👤 Do you need anything?</div>
+<div class="message plant">🌱 A little more water would be great. Thank you!</div>
+</div>
+</section>
+
+<section class="section" id="roadmap">
+<h2 class="section-title">Roadmap</h2>
+<div class="timeline">
+<div class="timeline-item">V1 - Plant Communication</div>
+<div class="timeline-item">V2 - Plant Identification</div>
+<div class="timeline-item">V3 - Voice Assistant</div>
+<div class="timeline-item">V4 - Disease Detection</div>
+<div class="timeline-item">V5 - Plant-to-Plant Communication</div>
+<div class="timeline-item">V6 - Farm Intelligence Platform</div>
+</div>
+</section>
+
+<section class="section" id="founder">
+<h2 class="section-title">Founder</h2>
+<div class="founder-card">
+<div class="avatar">NR</div>
+<h3>Neeraj Rathour</h3>
+<p>Founder & CEO</p>
+<p>AI Architecture • IoT Development • Product Design</p><br>
+<a href="mailto:rathourneeraj7419@gmail.com">rathourneeraj7419@gmail.com</a>
+</div>
+</section>
+
+<section class="section">
+<h2 class="section-title">Contact</h2>
+<div class="founder-card">
+<h3>Get In Touch</h3>
+<p>Interested in collaboration, research, patents or startup opportunities?</p><br>
+<a href="mailto:rathourneeraj7419@gmail.com">rathourneeraj7419@gmail.com</a>
+</div>
+</section>
+
+<footer>
+<h3>🌱 PhytoVoice AI</h3>
+<p>Giving Plants a Voice</p>
+<p>Founder & CEO: Neeraj Rathour</p>
+<p>© 2026 PhytoVoice AI</p>
+</footer>
+</body>
+</html>
